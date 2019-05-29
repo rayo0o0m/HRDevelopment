@@ -1,0 +1,298 @@
+/*
+Project Name:الاداره العامة لتطوير الموارد البشرية
+Client: All of People
+Author: ٍREEM ALSHIDOUKHY
+Developer @GA in NYC
+*/
+
+/********************Box Model Hack***********************/
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+   
+  /********************BASE STYLES***********************/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 26px;
+    line-height: 1; 
+    color: #ffffff;
+    font-family: Franklin GothicMedium, Franklin Gothic Book, Gill Sans MT;
+    font-weight: 300;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+/*******************LAYOUT************************/
+
+  header {
+    width: 1349px;
+    height: 654px;
+    background-size: cover;
+    background-color: #b8d8d8;
+    
+  }
+  header h1 {
+    text-align: center;
+    padding-top: 230px;
+    font-family: Franklin Gothic Medium;
+    color: #FEFBFB;
+    font-size: 120px;
+    text-shadow: 3px 2px #ADD8E6;
+  }
+ 
+  .carousel-container, #calcium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .calcium-container {
+    margin-top: 180px;
+    padding-right: 20px;
+    float: right; 
+    width: 49%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 15px; 
+  }
+  .calcium-container p {
+    font-size: 20px;
+  }
+  summary {
+    color:#f1f2f6;
+    font-size: 15px;
+    font-display: Vrinda;
+    padding: 10px;
+    width: 400px;
+  }
+  summary:hover{
+    color: #6C2C2C;
+    cursor: pointer;
+  }
+  details p {
+    font-family: Comic Sans MS;
+    color: #6C2C2C;
+    width: 400px;
+  }
+  .ca {
+    width: 50%;
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    margin-top: 180px;
+    padding-left: 90px;
+  }
+
+  .carousel-container, #magnesium-section {
+     width: 1349px;
+     height: 654px;
+     background-color: #7a9e9f;
+  }
+  .magnesium-container {
+    margin-top: 180px;
+    float: left; 
+    width: 55%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 36px;
+    padding-left: 150px;
+ }
+ .magnesium-container p {
+   font-size: 20px;
+ } 
+ .mg {
+    margin-top: 180px;
+    width: 44%;
+    float: right;
+    font-size: 50px;
+    height: 100px;
+ }
+
+ .carousel-container, #sodium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .sodium-container {
+    margin-top: 180px;
+    float: right; 
+    width: 49%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size:  15px;
+  }
+  .sodium-container p {
+    font-size: 15px;
+  }  
+  .na {
+    margin-top: 180px;
+    width: 50%;
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    padding-left: 90px;
+  }
+
+  .carousel-container, #potassium-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .potassium-container {
+    margin-top: 180px;
+    float: left; 
+    width: 65%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 50px;
+    padding-left: 150px;
+ }
+ .potassium-container p {
+   font-size: 50px;
+ } 
+ .k {
+    margin-top: 180px;
+    width: 34%;
+    float: right;
+    font-size: 50px;
+    height: 100px;
+ }
+
+ .carousel-container, #iron-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .iron-container {
+    margin-top: 180px;
+    padding-right: 20px;
+    float: right; 
+    width: 49%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 15px; 
+ }
+ .iron-container p {
+   font-size: 20px;
+ } 
+ .fe {
+    margin-top: 180px;
+    width: 45%;
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    padding-left: 90px;
+ }
+
+ .carousel-container, #copper-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f; 
+  }
+  .copper-container {
+    margin-top: 180px;
+    float: left; 
+    width: 55%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 15px;
+    padding-left: 150px;
+ }
+ .copper-container p {
+   font-size: 15px;
+ } 
+ .cu {
+    margin-top: 180px;
+    width: 44%;
+    float: right;
+    font-size: 50px;
+    height: 100px;
+ }
+
+ .carousel-container, #zinc-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .zinc-container {
+    margin-top: 180px;
+    float: right; 
+    width: 54%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 36px;
+ }
+ .zinc-container p {
+   font-size: 15px;
+ } 
+ .zn {
+    margin-top: 180px;
+    width: 45%;
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    padding-left: 100px;
+ }
+
+ .carousel-container, #phosphorus-section {
+    width: 1349px;
+    height: 654px;
+    background-color: #7a9e9f;
+  }
+  .phosphorus-container {
+    margin-top: 180px;
+    float: left; 
+    width: 59%;
+    padding: 20px;
+    font-family: Franklin Gothic Book; 
+    font-size: 15px;
+    padding-left: 150px;
+ }
+ .phosphorus-container p {
+   font-size: 15px;
+ }
+ .p {
+    margin-top: 180px;
+    width: 40%;
+    float: right;
+    font-size: 50px;
+    height: 100px;
+ }
+
+footer {
+   width: 1349px;
+   height: 64px;
+   background-color: #4f6367;
+   text-align: left;
+   padding: 20px;
+   color: ivory;
+   font-family: Comic Sans MS; 
+   font-size: 30px; 
+}
+.source:hover {
+  color:black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#sources-list {
+  float: right;
+  padding-right:30px; 
+}
+#source {
+  display: inline-block;
+  padding-left: 20px;
+  color:white;
+  font-family: Comic Sans MS;
+  font-size: 25px;
+}
+.source {
+  color:white;
+}
+
+
+
